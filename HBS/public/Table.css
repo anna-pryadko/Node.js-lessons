@@ -1,0 +1,31 @@
+table {
+  /* display: block; */
+  width: 100%;
+  overflow: auto;
+  word-break: keep-all;
+}
+
+table th,
+headtd {
+  font-weight: bold;
+}
+
+table th,
+table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+table tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+caption {
+  caption-side: bottom;
+    text-align: center;
+}

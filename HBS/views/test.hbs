@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<di>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/Table.css" />
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <hr>
+    {{>header}}
+     <hr>
+     {{welcomeMassege}}
+
+     <table>
+              <caption style="caption-side: top;">All Products</caption>
+              <thead>
+                  <tr>
+                      <th>Product #</th>
+                      <th>Name</th>
+                      <th>Description</th>
+                      <th>Price</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  {{#each ans}}
+                      <tr>
+                          <td>{{Id}}</td>
+                          <td>{{Name}}</td>
+                          <td>{{Description}}</td>
+                          <td>{{Price}}</td>
+                      </tr>
+                  {{/each}}
+              </tbody>
+          </table>
+
+    <hr>
+    {{>footer}}
+     <hr>
+     </div>
+</body>
+</html>

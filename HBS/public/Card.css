@@ -1,0 +1,56 @@
+.btn {
+  background-color: #004d7d;
+  color: #f1f1f1;
+  border-radius: 30px;
+}
+
+.navitem {
+  display: inline-block;
+  background-color: #004d7d;
+  text-decoration: none;
+  color: #f1f1f1;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.navitem:hover {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.active {
+  background-color: #0074b8 !important;
+}
+
+.resultbox {
+  width: 25%;
+  color: #ffffff;
+  background-color: #1f1f1f;
+}
+
+.card {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  padding: 3rem;
+  width: 80%;
+}
+
+.card img {
+  width: 30%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resultsnippet {
+  font-size: 1.25rem;
+  font-weight: 300;
+}

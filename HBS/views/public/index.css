@@ -1,0 +1,74 @@
+body {
+  font-family: -apple-system, sans-serif;
+}
+
+header,
+footer {
+  text-align: center;
+  clear: both;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #004d7d;
+}
+
+code {
+  font-family: Menlo, monospace;
+}
+
+.content {
+  width: 69%;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.tleft {
+  text-align: left;
+}
+
+.tright {
+  text-align: right;
+}
+
+.hidden {
+  display: none;
+}
+
+.rounded {
+  width: initial;
+  border-radius: 50%;
+}
+
+.resultbox {
+  width: 25%;
+  color: #ffffff;
+  background-color: #1f1f1f;
+}
+
+.errorbox {
+  width: 25%;
+  color: #ffffff;
+  background-color: #ff0000;
+}
+
+.detailsheader {
+  font-weight: 600;
+}
